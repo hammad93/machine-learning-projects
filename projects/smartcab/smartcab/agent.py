@@ -74,7 +74,7 @@ class LearningAgent(Agent):
         # With the hand-engineered features, this learning process gets entirely negated.
         
         # Set 'state' as a tuple of relevant data for the agent        
-        state = (waypoint, inputs['light'], inputs['left'], inputs['right'])
+        state = (waypoint, inputs['light'], inputs['left'], inputs['oncoming'])
 
         return state
 
